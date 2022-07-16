@@ -1,0 +1,287 @@
+body {
+    margin: 0;
+    padding: 4rem 0 0 0;
+    background-color: rgb(25, 25, 25);
+    transition-duration: 120ms;
+}
+
+/*  Navbar */
+.navbar-container {
+    position: fixed;
+    top: 0;
+    justify-content: left;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(20, 20, 20);
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    transition: all 140ms ease-in-out 0s;
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+.navbar-item:hover {
+    background-color:rgb(30, 30, 30);
+}   
+
+.navbar-title-container {
+    height: 100%;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.navbar-title {
+    margin: 4% 10px 0 15px;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 2rem; */
+    font-size: 200%;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;
+    background-image: linear-gradient(to right, #EE7026, #EA3A77, #81469A);
+    /* background-clip: text; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.navbar-item > h1 {
+    margin: 10% 15px 0 15px;
+    padding: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-size: 1.7rem; */
+    font-size: 170%;
+    font-weight: 300;
+    text-align: justify;
+}
+
+div.navbar-item > a {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+
+.return-btn-container {
+    margin: 1% 0 0 5%;
+}
+
+.return-btn {
+    height: 50px;
+    width: 7.5%;
+    display: flex;
+    flex-flow: row;
+    background-color: rgb(20, 20, 20);
+    overflow: hidden;
+    border: hidden;
+    border-radius: 10px;
+    transition-duration: 120ms;
+}
+
+.return-btn:hover {
+    background-color: rgb(15, 15, 15);
+    cursor: pointer;
+}
+
+.return-btn-icon {
+    height: 32px;
+    margin: auto 10px auto auto;
+}
+
+.return-btn-txt {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 120%;
+    color: rgb(255, 255, 255);
+}
+
+.project-container {
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    height: 100%
+}
+
+.project-about-container {
+    padding: 10px 15px;
+    width: 65%;
+    min-height: 30.610em;
+    height: fit-content;
+    background-color: rgb(20, 20, 20);
+    margin: 0 0 0 5%;
+    border-radius: 10px;
+}
+
+.project-about-title {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255 ,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-about-description {
+    margin: 50px 0 0 0;
+    padding: 0;
+    color: rgb(255, 255 ,255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 125%;
+}
+
+.project-details-container {
+    display: flex;
+    position: sticky;
+    top: 80px;
+    flex-direction: column;
+    padding: 10px 15px;
+    width: 20%;
+    height: 20em;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+    margin: 0 auto 0 25px;
+}
+.project-details-title {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+
+/*  */
+.project-details-branch-container {
+    height: 30px;
+    width: fit-content;
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: rgb(25, 25, 25);
+    padding: 1px 5px;
+    border-radius: 50px;
+
+}
+
+.project-details-branch-icon {
+    height: 22.5px;
+    margin: auto 0 auto auto;
+}
+
+.project-details-branch {
+    margin: auto auto auto 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 1.1em;
+}
+/*  */
+
+.project-details-version {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 1.25em;
+    flex-grow: 0.95;
+}
+
+.project-details-action-container{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 45%; */
+    justify-content: space-evenly;
+}
+
+.project-details-download-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40px;
+    width: 48%;
+    background-color: rgb(21, 87, 6);
+    font-size: 115%;
+    transition-duration: 120ms;
+    overflow: hidden;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.project-details-download-btn:hover {
+    cursor: pointer;
+    background-color: rgb(14, 56, 5);
+}
+
+.project-details-download-txt {
+    margin: auto auto auto 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    color: rgb(255, 255, 255);
+}
+
+.project-details-download-icon {
+    height: 32px;
+    margin: auto 10px auto auto;
+}
+
+.project-details-github-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40px;
+    width: 48%;
+    background-color: rgb(57, 57, 57);
+    font-size: 115%;
+    transition-duration: 120ms;
+    overflow: hidden;
+    border: hidden;
+    border-radius: 5px;
+}
+
+.project-details-github-btn:hover {
+    cursor: pointer;
+    background-color: rgb(40, 40, 40);
+}
+
+.project-details-github-txt {
+    margin: auto auto auto 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 90%;
+    color: rgb(255, 255, 255);
+}
+
+.project-details-github-icon {
+    height: 32px;
+    width: 32px;
+    margin: auto 10px auto auto;
+}
+
+.project-details-download-icon-disabled {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 40px;
+    width: 48%;
+    background-color: rgb(40, 40, 40);
+    font-size: 115%;
+}
+
+.project-details-download-icon-disabled:hover {
+    cursor: not-allowed;
+}
+
+.footer-container {
+    position: relative;
+    bottom: 0px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.footer-copyright {
+    margin: 100px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 150%;
+    text-align: center;
+    color: rgba(255, 255, 255, 15%)
+}
