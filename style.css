@@ -200,7 +200,8 @@ div.navbar-item > a {
     flex-flow: row nowrap;
     height: 40px;
     width: 48%;
-    background-color: rgb(21, 87, 6);
+    /* background-color: rgb(21, 87, 6); */
+    background-color: rgb(12, 48, 4);
     font-size: 115%;
     transition-duration: 120ms;
     overflow: hidden;
@@ -209,8 +210,9 @@ div.navbar-item > a {
 }
 
 .project-details-download-btn:hover {
-    cursor: pointer;
-    background-color: rgb(14, 56, 5);
+    /* cursor: pointer; */
+    /* background-color: rgb(14, 56, 5); */
+    cursor: not-allowed;
 }
 
 .project-details-download-txt {
@@ -231,6 +233,7 @@ div.navbar-item > a {
     height: 40px;
     width: 48%;
     background-color: rgb(57, 57, 57);
+    /* background-color: rgb(25, 25, 25); */
     font-size: 115%;
     transition-duration: 120ms;
     overflow: hidden;
@@ -241,6 +244,7 @@ div.navbar-item > a {
 .project-details-github-btn:hover {
     cursor: pointer;
     background-color: rgb(40, 40, 40);
+    /* cursor: not-allowed; */
 }
 
 .project-details-github-txt {
@@ -256,7 +260,7 @@ div.navbar-item > a {
     margin: auto 10px auto auto;
 }
 
-.project-details-download-icon-disabled {
+/* .project-details-download-icon-disabled {
     display: flex;
     flex-flow: row nowrap;
     height: 40px;
@@ -267,7 +271,7 @@ div.navbar-item > a {
 
 .project-details-download-icon-disabled:hover {
     cursor: not-allowed;
-}
+} */
 
 .footer-container {
     position: relative;
